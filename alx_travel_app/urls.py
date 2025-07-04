@@ -20,3 +20,5 @@ urlpatterns = [
     # path('api/', include('listings.urls')),  # add when you have API routes
 ]
 
+path('api/', include('listings.urls')),
+
